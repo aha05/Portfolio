@@ -1,0 +1,26 @@
+[
+  {
+    "title": "WeatherWise",
+    "imageSrc": "projects/project.png",
+    "description": "Web application that provides real-time weather updates for any city. Simply enter the city name, and instantly access accurate and current weather information",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/aha05/WeatherWise/tree/master/WebApp/WeatherWise"
+  },
+  {
+    "title": "Human Resource Management Systems",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a comprehensive HRMS with features including user authentication, employee information management, leave tracking, user monitoring, and vacancy.",
+    "skills": ["Laravel"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Leave Management System",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a Leave Management System, providing a comprehensive solution for efficiently managing employee leave requests, approvals, and tracking.",
+    "skills": ["Django"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
