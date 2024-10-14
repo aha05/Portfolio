@@ -10,11 +10,12 @@ function Navbar() {
 
     return (
         <nav className={`nav-container ${isOpen ? "open" : ""}`}>
-
-            <button onClick={handleToggle}>
-                {isOpen ? <FaTimes size={20} color="white" /> : <FaBars size={20} color="white" />}
-            </button>
-
+            <div>
+                <p className="title">Full Stack Developer</p>
+                <button onClick={handleToggle}>
+                    {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
+                </button>
+            </div>
             <p className={`nav-links ${isOpen ? "open" : ""}`}>
                 <a href="#about">about</a>
                 <a href="#skills">skills</a>

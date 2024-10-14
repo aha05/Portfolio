@@ -1,32 +1,39 @@
 function Project(props) {
     return (
-        <div className="project">
+        <div class="project">
+            <img src={props.image} alt="Fleet Management System" />
             <h3>{props.title}</h3>
-            <p>
-                {props.description}
-            </p>
+            <p>{props.description}</p>
         </div>
     );
 }
 
 function Projects(props) {
     return (
-        <section className="projects" id="projects">
-            <div className="container">
-                <h2>Projects</h2>
-                <div className="d-grid">
-                    <Project
-                        title="Human resource Management system"
-                        description="Developed a full-stack HRMS using laravel framework with features
+        <section id="projects">
+            <h2>Projects</h2>
+            <div className="projects-container">
+                <Project
+                    image="/img/project image.png"
+                    title="Human resource Management system"
+                    description="Developed a full-stack HRMS using laravel framework with features
                 such as user authentication, employee information Management, and
                 leave Management.."
-                    />
-                    <Project
-                        title="Fleet Management System"
-                        description="Developed a full-stack Fleet Management System using asp .net MVC
+                />
+                <Project
+                    image="/img/project image.png"
+                    title="Fleet Management System"
+                    description="Developed a full-stack Fleet Management System using asp .net MVC
                 framework."
-                    />
-                </div>
+                />
+
+                <Project
+                    image="/img/project image.png"
+                    title="Fleet Management System"
+                    description="Developed a full-stack Fleet Management System using asp .net MVC
+                framework."
+                />
+
             </div>
         </section>
     );

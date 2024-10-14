@@ -1,26 +1,12 @@
-function Contact(props) {
-    return (
-        <div>
-            <i className="fas fa-envelope"></i>
-            <a
-                href="http://gashawfentaye0@gmail.com"
-                style={{ text_decoration: "none" }}>
-                gashawfentaye0@gmail.com
-            </a>
-        </div>
-    );
-}
-
 function Contacts(props) {
     return (
-        <section className="contact" id="contact">
-            <div className="container">
-                <h2>Contact</h2>
-                <p>
-                    Feel free to reach out! You can contact me with.
-                    <Contact name="gashawfentaye0@gmail.com" icon="fas fa-envelope" link="http://gashawfentaye0@gmail.com" />
-                </p>
-            </div>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <ul class="contact-inline" >
+                <li><i class="fas fa-envelope"></i> Email: <a href="#">example@example.com</a></li>
+                <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="#">linkedin.com/in/username</a></li>
+                <li><i class="fab fa-github"></i> GitHub: <a href="#">github.com/username</a></li>
+            </ul>
         </section>
     );
 }

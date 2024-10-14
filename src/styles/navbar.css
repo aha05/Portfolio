@@ -1,12 +1,18 @@
 nav {
   display: flex;
-  justify-content: end;
-  background-color: #222;
-  padding: 0.5em 0;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em 0em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-nav p {
-  margin-right: 4%;
+nav p.title {
+  color: #fff;
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 20%;
+  white-space: nowrap;
 }
 
 nav a {
@@ -16,27 +22,45 @@ nav a {
   padding: 0.9em 1.3em;
   margin: 0 0.95em;
   border-radius: 4px;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 nav a:hover {
-  background-color: #555;
+  color: #fffbfb;
+  transform: scale(1.03);
+  font-size: larger;
+  font-weight: bold;
 }
+
 nav button {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
   .nav-container {
-    height: 35px;
+    height: 40px;
     display: block;
     width: 100%;
+  }
+  .nav-container div p.title {
+    position: absolute;
+    top: 0px;
+    left: -15%;
+    white-space: nowrap;
+    color: #fff;
+  }
+
+  nav div {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .nav-container .nav-links {
     justify-content: left;
     width: 100%;
     padding: 0.9em;
     margin-top: 0%;
-    padding-top: 0em;
+    padding-top: 3em;
   }
   .nav-container .nav-links a {
     display: none;
@@ -53,8 +77,8 @@ nav button {
   }
 
   .nav-container a:hover {
-    background-color: #555;
-    margin-right: 40px;
+    color: #fffbfb;
+    transform: scale(1.03);
   }
 
   .nav-container.open {
@@ -65,6 +89,7 @@ nav button {
   }
 
   .nav-container button {
+    position: absolute;
     margin-left: 90%;
     display: inline-block;
     font-weight: 400;
@@ -78,8 +103,8 @@ nav button {
     border-radius: 0.25rem;
     color: #fff;
     background-color: rgba(0, 0, 0, 0);
-    border: #6c757d;
-    border-color: #6c757d;
+    border: #fff;
+    border-color: #fff;
     height: 32px;
     width: 40px;
   }
@@ -88,7 +113,7 @@ nav button {
     color: #fff;
     background-color: rgba(0, 0, 0, 0);
     border: 2.5px solid transparent;
-    border-color: white;
+    border-color: #fff;
     transition: none;
   }
 }

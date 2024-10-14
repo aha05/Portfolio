@@ -1,5 +1,4 @@
 import About from './components/About';
-import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -12,10 +11,7 @@ function App() {
     <div>
 
       <Navbar />
-      <div className="header-grid">
-        <Header fullName="Gashaw Fentaye" Job="Full Stack Developer" />
-        <About />
-      </div>
+      <About fullName="Gashaw Fentaye" />
       <Skills />
       <Projects />
       <Contacts />
