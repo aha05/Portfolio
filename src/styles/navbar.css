@@ -3,7 +3,7 @@ nav {
   justify-content: space-between;
   background-color: #333;
   color: #fff;
-  padding: 0.5em 0em;
+  padding: 0.1em 0em;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -37,6 +37,9 @@ nav button {
 }
 
 @media screen and (max-width: 768px) {
+  nav {
+    padding: 0.5em 0em;
+  }
   .nav-container {
     height: 40px;
     display: block;

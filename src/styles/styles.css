@@ -130,6 +130,11 @@ h2 {
   margin-right: 10px;
 }
 
+.details {
+  text-decoration: none;
+  color: #f4b400;
+}
+
 @media screen and (max-width: 768px) {
   #skills .skills-container {
     display: grid;
