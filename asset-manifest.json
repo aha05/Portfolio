@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aha05/Portfolio/static/css/main.6286e9d4.css",
+    "main.js": "/aha05/Portfolio/static/js/main.59f80e41.js",
+    "index.html": "/aha05/Portfolio/index.html",
+    "main.6286e9d4.css.map": "/aha05/Portfolio/static/css/main.6286e9d4.css.map",
+    "main.59f80e41.js.map": "/aha05/Portfolio/static/js/main.59f80e41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6286e9d4.css",
+    "static/js/main.59f80e41.js"
+  ]
+}
